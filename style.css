@@ -59,8 +59,26 @@ body {
   width: 100%;
 }
 
+.task-item {
+  display: flex;
+  justify-content: space-between  ;
+  align-items: baseline;
+}
+
+.task-item i{
+  background-color: #41b883;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* utilities */
 
 .error {
-  border: 2px solid red !important; 
+  border: 2px solid red !important;
+}
+
+.completed{
+  text-decoration: line-through;
 }
