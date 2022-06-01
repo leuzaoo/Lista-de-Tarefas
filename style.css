@@ -61,11 +61,11 @@ body {
 
 .task-item {
   display: flex;
-  justify-content: space-between  ;
+  justify-content: space-between;
   align-items: baseline;
 }
 
-.task-item i{
+.task-item i {
   background-color: #41b883;
   color: #fff;
   padding: 12px;
@@ -79,6 +79,6 @@ body {
   border: 2px solid red !important;
 }
 
-.completed{
+.completed {
   text-decoration: line-through;
 }
