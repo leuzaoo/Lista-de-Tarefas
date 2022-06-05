@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   height: 100vh;
   background-image: linear-gradient(90deg, #37b786, #00d3fd);
   display: flex;
@@ -82,4 +83,28 @@ body {
 .completed {
   text-decoration: line-through;
   color: red;
+}
+
+@media screen and (max-width: 300px) {
+  .new-task-container {
+    display: grid;
+    justify-content: center;
+  }
+
+  .new-task-container {
+    display: grid;
+    justify-content: center;
+    margin: 0 20%;
+  }
+
+  .tasks-container {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .new-task-button {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
 }
