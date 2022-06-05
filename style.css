@@ -85,26 +85,21 @@ body {
   color: red;
 }
 
-@media screen and (max-width: 300px) {
-  
-*{
-  overflow-x: hidden;
-}
-  
-  .new-task-container {
-    display: grid;
-    justify-content: center;
+@media screen and (max-width: 400px) {
+  * {
+    overflow-x: hidden;
   }
 
   .new-task-container {
     display: grid;
     justify-content: center;
-    margin: 0 20%;
+    margin: 0 10%;
+    width: 80%;
   }
 
   .tasks-container {
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .new-task-button {
